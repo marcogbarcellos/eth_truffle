@@ -1,0 +1,8 @@
+version: '2.1'
+
+services:
+  testrpc:
+    image: marcogbarcellos/ethereumjs-testrpc:latest
+    ports:
+      - "8545:8545"
+
